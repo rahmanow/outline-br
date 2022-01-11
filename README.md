@@ -2,7 +2,7 @@
 
 [![npm (scoped)](https://img.shields.io/badge/npm-8.1.2-green.svg)](https://www.npmjs.com/package/@rahmanow/outline-keys-generator)
 
-Simple JavaScript for listing & changing generated keys locally on [Outline Manager](https://outline.org).
+Simple JavaScript module for listing & changing generated keys locally on [Outline Manager](https://outline.org).
 
 ## Install
 
@@ -51,10 +51,10 @@ keys('https://outline-management-api-url', '87.65.43.21');
 ```
 
 # When it is used?
-It can be used various reasons. The main idea was tracking the data usage of the Outline VPN users. If your server has limited free bandwidth and you want to limit the users' bandwidth, you need to track it. In case (which happens a lot in my country) ISP blocks the IP, you will have to reinstall the server with new IP. And send the keys to the users again. Backup the Outline Manager from the server, restore it to new server and use "outline-br" to list all the new keys with the names.
+It can be used various reasons. The main idea was tracking the data usage of the Outline VPN users. If your server has limited free bandwidth, and you want to limit the users' bandwidth, you need to track it. In case (which happens a lot in my country) ISP blocks the IP, you will have to reinstall the server with new IP. And send the keys to the users again. Backup the Outline Manager from the server, restore it to new server and use "outline-br" to list all the new keys with the names.
 
 # Coming Soon
 - Auto generate mass keys.
 - Using major functions of Outline Manager App from terminal.
 - Web App: Authorise a user to generate own key.
-- Backup & Restore 
+- Backup & Restore
