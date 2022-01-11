@@ -1,6 +1,6 @@
 {
   "name": "outline-br",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "List all the keys generated on Outline Manager. Backup / Restore keys with new domain / IP",
   "license": "MIT",
   "repository": "rahmanow/outline-br",
