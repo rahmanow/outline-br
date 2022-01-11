@@ -1,4 +1,4 @@
-# @rahmanow/outline-br
+# outline-br
 
 [![npm (scoped)](https://img.shields.io/badge/npm-8.1.2-green.svg)](https://www.npmjs.com/package/@rahmanow/outline-keys-generator)
 
@@ -7,7 +7,7 @@ Simple JavaScript module for listing & changing generated keys locally on [Outli
 ## Install
 
 ```
-$ npm install @rahmanow/outline-br
+$ npm install outline-br
 ```
 
 ## Usage
