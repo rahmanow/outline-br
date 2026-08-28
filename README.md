@@ -1,10 +1,10 @@
 # outline-br
 
-> ## ⚠️ Deprecated — use [ShadowboxKeys](https://github.com/rahmanow/ShadowboxKeys) instead
+> ## ⚠️ Deprecated — use [shadowtools](https://github.com/rahmanow/shadowtools) instead
 >
-> This project has been merged into **[ShadowboxKeys](https://github.com/rahmanow/ShadowboxKeys)**, which does everything outline-br did and considerably more. outline-br is no longer developed; the npm package stays published at `2.0.2` so existing installs keep working, but it will receive no further updates or fixes.
+> This project has been merged into **[shadowtools](https://github.com/rahmanow/shadowtools)**, which does everything outline-br did and considerably more. outline-br is no longer developed; the npm package stays published at `2.0.2` so existing installs keep working, but it will receive no further updates or fixes.
 >
-> **Migrating** — `getKeys()` is available in ShadowboxKeys with the same signature, the same `Name -> ss://...` output and the same printing behaviour, so only the import changes:
+> **Migrating** — `getKeys()` is available in shadowtools with the same signature, the same `Name -> ss://...` output and the same printing behaviour, so only the import changes:
 >
 > ```js
 > // before
@@ -12,7 +12,7 @@
 > keys('https://outline-management-api-url', '87.65.43.21');
 >
 > // after
-> const { getKeys } = require('shadowbox-keys');
+> const { getKeys } = require('shadowtools');
 > await getKeys('https://outline-management-api-url', '87.65.43.21');
 > ```
 >
@@ -86,11 +86,11 @@ It can be used various reasons. The main idea was tracking the data usage of the
 
 Nothing further is planned here — this project is deprecated. Most of what was
 listed under this heading has been built in
-[ShadowboxKeys](https://github.com/rahmanow/ShadowboxKeys):
+[shadowtools](https://github.com/rahmanow/shadowtools):
 
 - ~~Auto generate mass keys~~ — `add` creates keys from the terminal
 - ~~Using major functions of Outline Manager App from terminal~~ — `list`, `add`,
   `remove`, `rename`, `limit`, `usage` and `qr` all run from the shell
 - Web App: Authorise a user to generate own key — still unbuilt
 - Backup & Restore — still unbuilt, though pointing a domain at the restored
-  server and re-listing the keys is what ShadowboxKeys' `OUTLINE_DOMAIN` is for
+  server and re-listing the keys is what shadowtools' `OUTLINE_DOMAIN` is for
